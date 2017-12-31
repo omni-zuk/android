@@ -7,6 +7,10 @@
   <remote  name="omnirom"
            fetch="https://github.com/omnirom"
            review="gerrit.omnirom.org" />
+  
+  <remote  name="omni-zuk"
+           fetch="https://github.com/omni-zuk" />
+
 
   <project path="bionic" name="android_bionic" remote="omnirom" revision="android-8.1" groups="pdk" />
 
@@ -33,7 +37,7 @@
   <project path="external/toybox" name="android_external_toybox" remote="omnirom" revision="android-8.1" />
 
   <project path="frameworks/av" name="android_frameworks_av" remote="omnirom" revision="android-8.1" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="omnirom" revision="android-8.1" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="omni-zuk" revision="android-8.1" />
   <project path="frameworks/native" name="android_frameworks_native" remote="omnirom" revision="android-8.1" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="omnirom" revision="android-8.1" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="omnirom" revision="android-8.1" />
