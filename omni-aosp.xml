@@ -82,5 +82,5 @@
   <project path="device/zuk/z2_plus" name="android_device_zuk_z2_plus" remote="omni-zuk" revision="android-8.1" />
   <project path="device/zuk/msm8996-common" name="device_zuk_msm8996-common" remote="omni-zuk" revision="android-8.1" />
   <project path="vendor/zuk" name="proprietary_vendor_zuk" remote="omni-zuk" revision="test2" />
-  <project path="kernel/zuk/msm8996" name="android_kernel_zuk_msm8996" remote="omni-zuk" revision="8x-caf" />
+  <project path="kernel/zuk/msm8996" name="android_kernel_zuk_msm8996" remote="omni-zuk" revision="android-8.1" />
 </manifest>
